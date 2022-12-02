@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pillar Candles</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+     <img src="pillarcandles.png" style="height: 200px; width: 200px;">
+     <h2>Plates</h2>
+     <hr>
+     <div class="container">
+        <h6>Select a style:</h6>
+        <select name="styles" id="styles">
+            <option value="red-and-green">Red & Green</option>
+            <option value="red-and-green-with-red-plate">Red & Green with Red Plate</option>
+            <option value="red-and-green-with-green-plate">Red & Green with Green Plate</option>
+            <option value="blue-and-gold">Blue & Gold</option>
+            <option value="gold-with-name-candles">Gold with Name Candles</option>
+        </select>
+        <hr>
+        <button class="glyphicon glyphicon-shopping-cart btn btn-primary" onclick="placeOrder()">Add To Cart</button>
+        <button class="glyphicon glyphicon-arrow-left btn btn-warning" onclick="back()">Back</button>
+     </div>  
+     <script src="pillarcandles.js"></script> 
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scented Candles</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+     <img src="scentedcandles.png" style="height: 200px; width: 200px;">
+     <h2>Scented Candles</h2>
+     <hr>
+     <div class="container">
+        <h6>Select a scent:</h6>
+        <select name="scents" id="scents">
+            <option value="strawberry">Strawberry</option>
+            <option value="jcb">JCB</option>
+            <option value="peach">Peach</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="jasminemogra">Jasmine Mogra</option>
+            <option value="sandalwood">Sandalwood</option>
+            <option value="pear">Pear</option>
+            <option value="rose">Rose</option>
+            <option value="rose-beeswax">Rose Beeswax</option>
+            <option value="lemonpie">Lemon Pie</option>
+            <option value="oceanbreeze">Ocean Breeze</option>
+            <option value="lavender">Lavender</option>
+        </select>
+        <br>
+        <h6>Select a style:</h6>
+        <select name="styles" id="styles">
+            <option value="succulent-candle-1">Succulent Candle 1</option>
+            <option value="succulent-candle-2">Succulent Candle 2</option>
+            <option value="rose-shaped">Rose Shaped</option>
+        </select>
+        <hr>
+        <button class="glyphicon glyphicon-shopping-cart btn btn-primary" onclick="placeOrder()">Add To Cart</button>
+        <button class="glyphicon glyphicon-arrow-left btn btn-warning" onclick="back()">Back</button>
+     </div>  
+     <script src="scentedcandles.js"></script> 
+    </body>
+</html>
